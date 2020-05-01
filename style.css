@@ -62,3 +62,7 @@
     .more.black{color: #000}
     .more.black::before{background: #000; }
     .more.black:hover{color: #000; border: #000 solid 1px}
+
+.fixed-top{
+    background-color: #563d7c;
+}
