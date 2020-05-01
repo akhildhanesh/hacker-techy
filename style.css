@@ -8,3 +8,26 @@
     text-decoration: none;
     color:red;
 }
+
+/*hello{
+    height:25em;
+    width: 100%;
+}*/
+
+.move{
+    left: 85px;
+}
+
+@media (max-width: 642px){
+.move {
+    width: 140px;
+    left: 0;
+}
+}
+ 
+@media (max-width: 992px){
+.move {
+    left: 25px;
+}
+}
+
