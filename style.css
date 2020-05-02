@@ -78,7 +78,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color:#563d7c ;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -94,7 +94,8 @@
   }
   
   .sidebar a:hover {
-    color: #f1f1f1;
+    text-decoration: none;
+    color: green;
   }
   
   .sidebar .closebtn {
@@ -136,4 +137,8 @@
         transition: margin-left .5s;
         padding: 16px;
       }
+    }
+
+    .ttt{
+      text-decoration: none;
     }
