@@ -27,7 +27,7 @@
  
 @media (max-width: 992px){
 .move {
-    left: 25px;
+    left: 0px;
 }
 }
 
@@ -66,3 +66,7 @@
 .fixed{
     background-color: #563d7c;
 }
+
+.mv{font-size: 18px; font-weight: 700; position: relative; color: #fff; text-decoration: none; padding: 10px 0; transition:all .5s ease} 
+.mv::before{content: ''; position: absolute; bottom: 0; width: 100%; background:transparent; height: 2px; transition:all .2s ease}
+.mv:hover{background-color: transparent; padding: 10px 15px; border:transparent;}
