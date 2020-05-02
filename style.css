@@ -85,6 +85,7 @@
     -moz-transition-duration: .5s;
     -o-transition-duration: .5s;
     transition-duration: .5s;
+    opacity: 0.95;
   
   }
   
@@ -149,5 +150,6 @@
     }
 
     .tog{
+      font-weight: normal;
       color:red;
     }
