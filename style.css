@@ -70,3 +70,70 @@
 .mv{font-size: 18px; font-weight: 700; position: relative; color: #fff; text-decoration: none; padding: 10px 0; transition:all .5s ease} 
 .mv::before{content: ''; position: absolute; bottom: 0; width: 100%; background:transparent; height: 2px; transition:all .2s ease}
 .mv:hover{background-color: transparent; padding: 10px 15px; border:transparent;}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    border: olivedrab solid 1px;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+    border:solid white 1px;
+  }
+  
+  @media (min-width: 1000px){
+ .main{
+     display: none;
+ }
+}
+
+  @media (max-width: 642px){
+      .main {
+        transition: margin-left .5s;
+        padding: 16px;
+      }
+  }
+
+  @media (max-width: 992px){
+    .main {
+        transition: margin-left .5s;
+        padding: 16px;
+      }
+    }
