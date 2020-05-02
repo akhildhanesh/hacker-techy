@@ -100,7 +100,7 @@
   
   .sidebar a:hover {
     text-decoration: none;
-    color: green;
+    color: whitesmoke;
   }
   
   .sidebar .closebtn {
@@ -120,8 +120,8 @@
   }
   
   .openbtn:hover {
-    background-color:green;
-    border:solid white 1px;
+    
+    border:solid lightblue 1px;
     color: green;
   }
   
