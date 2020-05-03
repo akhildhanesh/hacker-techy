@@ -97,17 +97,8 @@
     margin-left: 50px;
   }
   
-  .openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #111;
-    color: white;
-    border: olivedrab solid 1px;
-  }
-  
+
   .openbtn:hover {
-    
-    border:solid lightblue 1px;
     color: green;
   }
   
