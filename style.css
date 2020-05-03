@@ -9,10 +9,6 @@
     color:red;
 }
 
-/*hello{
-    height:25em;
-    width: 100%;
-}*/
 
 .move{
     left: 85px;
@@ -156,7 +152,7 @@
     }
 
     .Active{
-      border-bottom: 1px solid gray;
+      border-bottom: 1px solid;
       border-bottom-color: #f1b722;
       color: white;
   }
