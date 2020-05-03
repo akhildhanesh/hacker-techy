@@ -99,9 +99,13 @@
   
 
   .openbtn:hover {
-    color: green;
+    border: none;
+    color:gray;
   }
   
+  .openbtn:focus{
+    outline:0px;
+    }
   @media (min-width: 992px){
  .main{
      display: none;
