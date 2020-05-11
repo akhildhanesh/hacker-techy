@@ -151,4 +151,7 @@
       border-bottom-color: #f1b722;
       color: white;
   }
-  
+
+  .foc:focus{
+    outline: none;
+  }
