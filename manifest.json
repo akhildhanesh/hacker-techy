@@ -1,14 +1,14 @@
 {
 	"dir" : "ltr",
-	"lang" : "en",
+	"lang" : "English",
 	"name" : "Hacker Techy",
 	"scope" : "/",
-	"display" : "browser",
+	"display" : "fullscreen",
 	"start_url" : "https://techworldscanner.xyz/",
 	"short_name" : "Hacker Techy",
 	"theme_color" : "#563d7c",
 	"description" : "",
-	"orientation" : "any",
+	"orientation" : "portrait",
 	"background_color" : "transparent",
 	"related_applications" : [],
 	"prefer_related_applications" : false,
@@ -19,5 +19,5 @@
 		}],
 	"url" : "https://techworldscanner.xyz",
 	"screenshots" : [],
-	"generated" : "true"
+	"generated" : ""
 }
