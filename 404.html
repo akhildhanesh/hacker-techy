@@ -1,29 +1,49 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Not Found</title>
+    <link rel="stylesheet" href="css/css/bootstrap.min.css">
   </head>
+  <style>
+    .mx-auto {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  }
+   .fon{
+    font-size:8vw
+   }
+   .fo{
+    font-size: 4vw;
+   }
+    @media (max-width: 642px){ 
+      .fon{
+    font-size:12vw
+   }
+   .fo{
+    font-size: 8vw;
+   }
+    }
+ 
+  @media (max-width: 992px){
+    .fon{
+    font-size:12vw
+   }
+   .fo{
+    font-size: 8vw;
+   }
+  }
+  </style>
   <body>
-    <style>
-      @media  (max-width: 642px){
-      .center{
-        text-align: center;
-        width: 100%;
-        height: auto;
-      }
-    }
-    @media (max-width: 992px){
-    .center {
-      text-align: center;
-        width: 100%;
-        height: auto;
-      }
-    }
-    </style>
-    <div class="center" style="text-align: center;color: darkgreen;font-size: larger;font-weight: bolder;">   
-        <h1>Oh no!!</h1>
-        <p>This page does not exist</p>
+    <div class="container-fluid " >
+    <div class="row mx-auto">
+    <div class="col-12 text-center text-success " >   
+        <h1 class="fon" >Oh no!!</h1>
+        <p class="fo" >This page does not exist</p>
     </div>
+  </div>
+</div>
   </body>
 </html>
